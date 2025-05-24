@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartik Mishra | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #1f1f1f;
+      color: #f3f4f6;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #121212;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #f3f4f6;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 4rem 2rem;
+      background-color: #181818;
+    }
+    header .text {
+      flex: 1;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 1.5rem;
+      color: #ccc;
+    }
+    .btns a {
+      display: inline-block;
+      padding: 0.7rem 1.2rem;
+      margin-right: 1rem;
+      border-radius: 5px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .hire {
+      background-color: #6366f1;
+      color: #fff;
+    }
+    .resume {
+      background-color: #facc15;
+      color: #000;
+    }
+    header img {
+      max-width: 300px;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 1rem;
+      padding-left: 0;
+    }
+    .skills li {
+      background: #27272a;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    .project {
+      background: #2d2d2d;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #121212;
+    }
+    footer a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #818cf8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div style="font-weight: 700; font-size: 1.2rem;">Kartik Mishra</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="text">
+      <h1>Hi! I'm Kartik Mishra</h1>
+      <p>An engineering student passionate about Artificial Intelligence, Machine Learning, and Full Stack Development. I love building smart solutions that blend code with creativity.</p>
+      <div class="btns">
+        <a href="#contact" class="hire">Hire Me</a>
+        <a href="#" class="resume">Download Resume</a>
+      </div>
+    </div>
+    <img src="/mnt/data/ef00bec8-07b9-46ee-8c85-27f3d34deb10.jpg" alt="Kartik Mishra">
+  </header>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Image Processing</li>
+      <li>Computer Vision</li>
+      <li>C</li>
+      <li>MySQL</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Image Sharpening using Knowledge Distillation</h3>
+      <p>A real-time application that enhances image and video call quality by dynamically adjusting pixels using deep learning in virtual meetings.</p>
+    </div>
+    <div class="project">
+      <h3>ParkSmart</h3>
+      <p>A smart parking management system for campus that allows users to find and book parking spots efficiently using web and backend technologies.</p>
+    </div>
+    <div class="project">
+      <h3>E-commerce Website</h3>
+      <p>A responsive shopping site that simulates shopping cart and checkout functionality using HTML/CSS/JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Task Manager</h3>
+      <p>A web-based to-do app to manage daily tasks with a clean interface and JavaScript-based logic.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact: <a href="mailto:kartikmish07@gmail.com">kartikmish07@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/kartik-mishra-255363325/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
